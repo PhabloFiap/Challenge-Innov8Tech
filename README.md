@@ -1,3 +1,14 @@
+# Representantes
+
+RM 550687 Phablo Santos
+RM 551821 Lucas Serbato
+RM 552228 Vitor Teixeira
+RM 552364 Ronald de Oliveira
+RM 552466 Gustavo Carvalho
+
+
+
+
 - Definir a arquitetura da API, explicando a escolha entre uma abordagem monolítica ou microservices
 
   Minha aplicação foi desenvolvida utilizando uma arquitetura monolítica, o que significa que todas as funcionalidades estão centralizadas em um único projeto que gerencia as diversas camadas, como as entidades, controladores, serviços, repositórios e o contexto de banco de dados. Abaixo estão os motivos e justificativas para essa escolha:

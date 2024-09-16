@@ -1,10 +1,10 @@
 # Representantes
 
-RM 550687 Phablo Santos
-RM 551821 Lucas Serbato
-RM 552228 Vitor Teixeira
-RM 552364 Ronald de Oliveira
-RM 552466 Gustavo Carvalho
+* RM 550687 Phablo Santos
+* RM 551821 Lucas Serbato
+* RM 552228 Vitor Teixeira
+* RM 552364 Ronald de Oliveira
+* RM 552466 Gustavo Carvalho
 
 
 

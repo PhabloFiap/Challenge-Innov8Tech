@@ -11,5 +11,8 @@ namespace Challenge_Innov8Tech.Infrastructure
         }
 
         public DbSet<ClienteEntity> Clientes { get; set; }
+        public DbSet<RamoEntity> Ramos { get; set; }
+
+      
     }
 }

@@ -11,8 +11,8 @@ using Oracle.EntityFrameworkCore.Metadata;
 namespace Challenge_Innov8Tech.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    [Migration("20240916003519_initdb")]
-    partial class initdb
+    [Migration("20241103041617_Atualizabanco1pN2Teste")]
+    partial class Atualizabanco1pN2Teste
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -51,6 +51,49 @@ namespace Challenge_Innov8Tech.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("tab_Cliente");
+                });
+
+            modelBuilder.Entity("Challenge_Innov8Tech.Entities.RamoEntity", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("NUMBER(10)");
+
+                    OraclePropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ClienteId")
+                        .HasColumnType("NUMBER(10)")
+                        .HasColumnName("ClienteId");
+
+                    b.Property<string>("Descricao")
+                        .IsRequired()
+                        .HasColumnType("NVARCHAR2(2000)");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("NVARCHAR2(2000)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ClienteId");
+
+                    b.ToTable("tab_Ramos");
+                });
+
+            modelBuilder.Entity("Challenge_Innov8Tech.Entities.RamoEntity", b =>
+                {
+                    b.HasOne("Challenge_Innov8Tech.Entities.ClienteEntity", "Cliente")
+                        .WithMany("Ramo")
+                        .HasForeignKey("ClienteId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Cliente");
+                });
+
+            modelBuilder.Entity("Challenge_Innov8Tech.Entities.ClienteEntity", b =>
+                {
+                    b.Navigation("Ramo");
                 });
 #pragma warning restore 612, 618
         }

@@ -49,6 +49,49 @@ namespace Challenge_Innov8Tech.Migrations
 
                     b.ToTable("tab_Cliente");
                 });
+
+            modelBuilder.Entity("Challenge_Innov8Tech.Entities.RamoEntity", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("NUMBER(10)");
+
+                    OraclePropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ClienteId")
+                        .HasColumnType("NUMBER(10)")
+                        .HasColumnName("ClienteId");
+
+                    b.Property<string>("Descricao")
+                        .IsRequired()
+                        .HasColumnType("NVARCHAR2(2000)");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("NVARCHAR2(2000)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ClienteId");
+
+                    b.ToTable("tab_Ramos");
+                });
+
+            modelBuilder.Entity("Challenge_Innov8Tech.Entities.RamoEntity", b =>
+                {
+                    b.HasOne("Challenge_Innov8Tech.Entities.ClienteEntity", "Cliente")
+                        .WithMany("Ramo")
+                        .HasForeignKey("ClienteId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Cliente");
+                });
+
+            modelBuilder.Entity("Challenge_Innov8Tech.Entities.ClienteEntity", b =>
+                {
+                    b.Navigation("Ramo");
+                });
 #pragma warning restore 612, 618
         }
     }

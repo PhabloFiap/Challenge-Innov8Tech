@@ -70,7 +70,17 @@ namespace Challenge_Innov8Tech.Controllers
             return Ok();
         }
 
+        [HttpGet("busca/endereco/{cep}")]
+        [Produces<Endereco>]
+        public async Task<IActionResult> GetDataService(string cep)
+        {
+            var endereco = await _clienteAplicationService.ObterEnderecoPorCepAsync(cep);
+            
+            if (endereco is not null)
+                return Ok(endereco);
 
-       
+            return BadRequest("Não foi possivel obter os dados do endereço");
+        }
+
     }
 }

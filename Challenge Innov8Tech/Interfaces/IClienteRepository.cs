@@ -8,6 +8,8 @@ namespace Challenge_Innov8Tech.Interfaces
             ClienteEntity GetById(int id);
         ClienteEntity Insert(ClienteEntity cliente);
         ClienteEntity Update(ClienteEntity cliente);
+
+        ClienteEntity Teste(int id, ClienteEntity cliente);
         void Delete(int id);
     }
 }

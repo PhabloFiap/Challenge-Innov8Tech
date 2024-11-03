@@ -1,0 +1,101 @@
+ClienteId;Nome;Cpf;Email;Telefone;RamoId;RamoNome;DescricaoRamo
+1;João Silva;60240175223;joao@teste.com;(11) 91234-5678;3;Saude;Servicos de Saude e bem-estar
+2;Maria Oliveira;57957095910;exemplo@teste.com;(51) 92345-6789;3;Saude;Servicos de Saude e bem-estar
+3;Ana Costa;57562593993;pedro@teste.com;(61) 93214-5678;3;Saude;Servicos de Saude e bem-estar
+4;João Silva;86424551765;juliana@teste.com;(41) 91234-8765;5;Financeiro;Servicos financeiros e bancario
+5;Cliente Exemplo;22207350494;maria@teste.com;(41) 91234-8765;2;Comercio;Varejo e Comercio eletronico
+6;João Silva;42122143738;pedro@teste.com;(71) 94321-7654;1;Tecnologia;Desenvolvimento de software e TI
+7;Ana Costa;52962998900;maria@teste.com;(71) 94321-7654;3;Saude;Servicos de Saude e bem-estar
+8;Ana Costa;15827361626;ana@teste.com;(21) 98765-4321;1;Tecnologia;Desenvolvimento de software e TI
+9;Pedro Lima;85397902202;juliana@teste.com;(71) 94321-7654;1;Tecnologia;Desenvolvimento de software e TI
+10;Pedro Lima;32304943688;carlos@teste.com;(21) 98765-4321;4;Educacao;Educacao e cursos online
+11;Cliente Exemplo;32156034104;maria@teste.com;(31) 99876-5432;2;Comercio;Varejo e Comercio eletronico
+12;Ana Costa;99565223276;carlos@teste.com;(61) 93214-5678;1;Tecnologia;Desenvolvimento de software e TI
+13;Juliana Mendes;44498199352;joao@teste.com;(21) 98765-4321;5;Financeiro;Servicos financeiros e bancario
+14;Juliana Mendes;39743361269;juliana@teste.com;(21) 98765-4321;2;Comercio;Varejo e Comercio eletronico
+15;Carlos Souza;48127526684;pedro@teste.com;(71) 94321-7654;1;Tecnologia;Desenvolvimento de software e TI
+16;João Silva;31384116002;ana@teste.com;(31) 99876-5432;2;Comercio;Varejo e Comercio eletronico
+17;Carlos Souza;13910700448;ana@teste.com;(51) 92345-6789;5;Financeiro;Servicos financeiros e bancario
+18;Pedro Lima;66769666835;pedro@teste.com;(51) 92345-6789;1;Tecnologia;Desenvolvimento de software e TI
+19;Pedro Lima;51452465849;pedro@teste.com;(61) 93214-5678;3;Saude;Servicos de Saude e bem-estar
+20;Juliana Mendes;50103899443;carlos@teste.com;(41) 91234-8765;4;Educacao;Educacao e cursos online
+21;Cliente Exemplo;43639993950;juliana@teste.com;(71) 94321-7654;1;Tecnologia;Desenvolvimento de software e TI
+22;Ana Costa;63594419289;juliana@teste.com;(21) 98765-4321;5;Financeiro;Servicos financeiros e bancario
+23;João Silva;81470229221;ana@teste.com;(71) 94321-7654;3;Saude;Servicos de Saude e bem-estar
+24;Juliana Mendes;64388380636;juliana@teste.com;(31) 99876-5432;4;Educacao;Educacao e cursos online
+25;Cliente Exemplo;98768454664;ana@teste.com;(11) 91234-5678;1;Tecnologia;Desenvolvimento de software e TI
+26;Maria Oliveira;69571743290;joao@teste.com;(31) 99876-5432;3;Saude;Servicos de Saude e bem-estar
+27;João Silva;15497652453;joao@teste.com;(61) 93214-5678;5;Financeiro;Servicos financeiros e bancario
+28;Juliana Mendes;80171872302;juliana@teste.com;(41) 91234-8765;4;Educacao;Educacao e cursos online
+29;Juliana Mendes;69715222779;exemplo@teste.com;(61) 93214-5678;1;Tecnologia;Desenvolvimento de software e TI
+30;João Silva;36491360818;maria@teste.com;(11) 91234-5678;2;Comercio;Varejo e Comercio eletronico
+31;Juliana Mendes;81177499359;exemplo@teste.com;(41) 91234-8765;4;Educacao;Educacao e cursos online
+32;Ana Costa;78756830263;joao@teste.com;(61) 93214-5678;3;Saude;Servicos de Saude e bem-estar
+33;Cliente Exemplo;71213534485;ana@teste.com;(31) 99876-5432;1;Tecnologia;Desenvolvimento de software e TI
+34;Juliana Mendes;81152666225;ana@teste.com;(51) 92345-6789;4;Educacao;Educacao e cursos online
+35;João Silva;63175594651;pedro@teste.com;(31) 99876-5432;1;Tecnologia;Desenvolvimento de software e TI
+36;Maria Oliveira;82307938901;carlos@teste.com;(11) 91234-5678;5;Financeiro;Servicos financeiros e bancario
+37;Carlos Souza;80789234750;joao@teste.com;(21) 98765-4321;1;Tecnologia;Desenvolvimento de software e TI
+38;Juliana Mendes;69984707289;ana@teste.com;(31) 99876-5432;2;Comercio;Varejo e Comercio eletronico
+39;Ana Costa;43797486575;pedro@teste.com;(31) 99876-5432;3;Saude;Servicos de Saude e bem-estar
+40;Pedro Lima;21770776947;exemplo@teste.com;(21) 98765-4321;4;Educacao;Educacao e cursos online
+41;Juliana Mendes;41329028925;joao@teste.com;(41) 91234-8765;3;Saude;Servicos de Saude e bem-estar
+42;Pedro Lima;89842312974;pedro@teste.com;(61) 93214-5678;4;Educacao;Educacao e cursos online
+43;Maria Oliveira;52633481107;carlos@teste.com;(31) 99876-5432;5;Financeiro;Servicos financeiros e bancario
+44;Pedro Lima;65359945986;maria@teste.com;(71) 94321-7654;2;Comercio;Varejo e Comercio eletronico
+45;João Silva;41961210354;maria@teste.com;(21) 98765-4321;2;Comercio;Varejo e Comercio eletronico
+46;Pedro Lima;12200929145;juliana@teste.com;(51) 92345-6789;5;Financeiro;Servicos financeiros e bancario
+47;Pedro Lima;92713513563;pedro@teste.com;(61) 93214-5678;1;Tecnologia;Desenvolvimento de software e TI
+48;João Silva;56713652989;juliana@teste.com;(21) 98765-4321;2;Comercio;Varejo e Comercio eletronico
+49;Ana Costa;78612682997;joao@teste.com;(71) 94321-7654;5;Financeiro;Servicos financeiros e bancario
+50;Carlos Souza;37876397622;exemplo@teste.com;(61) 93214-5678;3;Saude;Servicos de Saude e bem-estar
+51;Pedro Lima;71815449614;joao@teste.com;(21) 98765-4321;1;Tecnologia;Desenvolvimento de software e TI
+52;Maria Oliveira;90571543417;carlos@teste.com;(51) 92345-6789;2;Comercio;Varejo e Comercio eletronico
+53;Carlos Souza;26649841683;juliana@teste.com;(31) 99876-5432;4;Educacao;Educacao e cursos online
+54;Juliana Mendes;19322291513;juliana@teste.com;(61) 93214-5678;1;Tecnologia;Desenvolvimento de software e TI
+55;Juliana Mendes;40595782951;juliana@teste.com;(21) 98765-4321;1;Tecnologia;Desenvolvimento de software e TI
+56;Pedro Lima;43246987038;exemplo@teste.com;(11) 91234-5678;5;Financeiro;Servicos financeiros e bancario
+57;Ana Costa;40544687816;ana@teste.com;(31) 99876-5432;2;Comercio;Varejo e Comercio eletronico
+58;Maria Oliveira;59468369796;ana@teste.com;(31) 99876-5432;3;Saude;Servicos de Saude e bem-estar
+59;João Silva;97140553734;juliana@teste.com;(11) 91234-5678;5;Financeiro;Servicos financeiros e bancario
+60;Pedro Lima;49860176131;pedro@teste.com;(41) 91234-8765;1;Tecnologia;Desenvolvimento de software e TI
+61;Juliana Mendes;99318155831;maria@teste.com;(41) 91234-8765;3;Saude;Servicos de Saude e bem-estar
+62;Maria Oliveira;23461921514;juliana@teste.com;(61) 93214-5678;4;Educacao;Educacao e cursos online
+63;Carlos Souza;65567064838;joao@teste.com;(21) 98765-4321;1;Tecnologia;Desenvolvimento de software e TI
+64;Maria Oliveira;41353329295;carlos@teste.com;(21) 98765-4321;1;Tecnologia;Desenvolvimento de software e TI
+65;Ana Costa;93649351606;juliana@teste.com;(51) 92345-6789;3;Saude;Servicos de Saude e bem-estar
+66;Ana Costa;52740144100;maria@teste.com;(11) 91234-5678;4;Educacao;Educacao e cursos online
+67;João Silva;54032892438;ana@teste.com;(51) 92345-6789;5;Financeiro;Servicos financeiros e bancario
+68;Ana Costa;21997919441;pedro@teste.com;(51) 92345-6789;4;Educacao;Educacao e cursos online
+69;Carlos Souza;82982827918;carlos@teste.com;(31) 99876-5432;3;Saude;Servicos de Saude e bem-estar
+70;Cliente Exemplo;38987064583;pedro@teste.com;(31) 99876-5432;2;Comercio;Varejo e Comercio eletronico
+71;Maria Oliveira;20934624655;carlos@teste.com;(21) 98765-4321;2;Comercio;Varejo e Comercio eletronico
+72;Pedro Lima;21949282209;exemplo@teste.com;(21) 98765-4321;1;Tecnologia;Desenvolvimento de software e TI
+73;Maria Oliveira;30185137939;joao@teste.com;(61) 93214-5678;2;Comercio;Varejo e Comercio eletronico
+74;Pedro Lima;45080258608;juliana@teste.com;(71) 94321-7654;3;Saude;Servicos de Saude e bem-estar
+75;Cliente Exemplo;76380174071;juliana@teste.com;(21) 98765-4321;4;Educacao;Educacao e cursos online
+76;João Silva;49485896586;juliana@teste.com;(21) 98765-4321;2;Comercio;Varejo e Comercio eletronico
+77;João Silva;77720037555;ana@teste.com;(71) 94321-7654;4;Educacao;Educacao e cursos online
+78;Juliana Mendes;33013114560;maria@teste.com;(61) 93214-5678;2;Comercio;Varejo e Comercio eletronico
+79;Pedro Lima;52944092291;ana@teste.com;(21) 98765-4321;4;Educacao;Educacao e cursos online
+80;Maria Oliveira;12960638948;carlos@teste.com;(31) 99876-5432;4;Educacao;Educacao e cursos online
+81;João Silva;11723805565;juliana@teste.com;(11) 91234-5678;2;Comercio;Varejo e Comercio eletronico
+82;Ana Costa;97093930117;joao@teste.com;(41) 91234-8765;3;Saude;Servicos de Saude e bem-estar
+83;Maria Oliveira;91743890425;ana@teste.com;(41) 91234-8765;3;Saude;Servicos de Saude e bem-estar
+84;Carlos Souza;70054277457;ana@teste.com;(71) 94321-7654;2;Comercio;Varejo e Comercio eletronico
+85;João Silva;99010021821;juliana@teste.com;(11) 91234-5678;1;Tecnologia;Desenvolvimento de software e TI
+86;Maria Oliveira;15418733580;pedro@teste.com;(11) 91234-5678;3;Saude;Servicos de Saude e bem-estar
+87;Carlos Souza;57635543850;maria@teste.com;(71) 94321-7654;5;Financeiro;Servicos financeiros e bancario
+88;Juliana Mendes;70252787960;pedro@teste.com;(51) 92345-6789;2;Comercio;Varejo e Comercio eletronico
+89;Carlos Souza;73153547620;exemplo@teste.com;(21) 98765-4321;5;Financeiro;Servicos financeiros e bancario
+90;Juliana Mendes;24055527329;ana@teste.com;(71) 94321-7654;3;Saude;Servicos de Saude e bem-estar
+91;Pedro Lima;12875548379;exemplo@teste.com;(41) 91234-8765;3;Saude;Servicos de Saude e bem-estar
+92;Carlos Souza;96946967842;joao@teste.com;(71) 94321-7654;4;Educacao;Educacao e cursos online
+93;Cliente Exemplo;62615701907;juliana@teste.com;(21) 98765-4321;2;Comercio;Varejo e Comercio eletronico
+94;Pedro Lima;55417050970;ana@teste.com;(21) 98765-4321;5;Financeiro;Servicos financeiros e bancario
+95;Pedro Lima;13314619286;maria@teste.com;(21) 98765-4321;4;Educacao;Educacao e cursos online
+96;Juliana Mendes;66881746517;ana@teste.com;(41) 91234-8765;5;Financeiro;Servicos financeiros e bancario
+97;Juliana Mendes;73168174985;exemplo@teste.com;(51) 92345-6789;3;Saude;Servicos de Saude e bem-estar
+98;Maria Oliveira;32842358504;pedro@teste.com;(31) 99876-5432;1;Tecnologia;Desenvolvimento de software e TI
+99;Maria Oliveira;64632494163;carlos@teste.com;(11) 91234-5678;3;Saude;Servicos de Saude e bem-estar
+100;Ana Costa;57729406548;ana@teste.com;(11) 91234-5678;5;Financeiro;Servicos financeiros e bancario

@@ -10,6 +10,8 @@ namespace Challenge_Innov8Tech.Interfaces
         ClienteEntity Update(ClienteEntity cliente);
         void Delete(int id);
 
+        Task<Endereco?> ObterEnderecoPorCepAsync(string cep);
+
 
     }
 }

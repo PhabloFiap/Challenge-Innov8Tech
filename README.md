@@ -27,12 +27,30 @@
     ![image](https://github.com/user-attachments/assets/e7685195-f307-4242-9c6a-13a1bdc905df)
     ![image](https://github.com/user-attachments/assets/b55762d0-bee1-4129-bef8-f44a99723cff)
 
-# HOW TO
+## Funcionalidades Implementadas
 
-# Passo 1: Clonar o repositório
-echo "Clonando o repositório..."
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+- **Cadastro de Clientes**: Rota para cadastrar novos clientes.
+- **Cadastro de Ramos**: Rota para associar um ramo a um cliente já existente.
+- **Recomendação de Produtos**: Recurso de recomendação utilizando machine learning, que sugere produtos com base em características do cliente e do ramo.
+
+## Estrutura do Projeto
+
+- **Entidades**:
+  - `ClienteEntity`: Representa o cliente no sistema.
+  - `RamoEntity`: Representa o ramo de atuação de cada cliente.
+- **Serviços**:
+  - `ClienteApplicationService`: Gerencia a lógica de negócios relacionada a clientes.
+- **Controladores**:
+  - `ClienteController`: Controlador para gerenciar endpoints de clientes.
+  - `RamoController`: Controlador para gerenciar endpoints de ramos.
+  - `RecomendacaoController`: Controlador para recomendações baseadas em ML.
+## Como Executar o Projeto
+
+### Passo 1: Clonar o Repositório
+
+```bash
+git clone https://github.com/PhabloFiap/Challenge-Innov8Tech.git
+cd Challenge-Innov8Tech
 
 # Passo 2: Configurar o Banco de Dados Oracle
 echo "Configure seu banco de dados Oracle editando o arquivo appsettings.json com suas credenciais."
@@ -48,6 +66,10 @@ dotnet ef database update
 # Passo 5: Rodar a API
 echo "Rodando a API..."
 dotnet run
+
+## Observações Adicionais
+
+Este projeto também utiliza machine learning para recomendações. O modelo é treinado a partir de um CSV e salvo em um arquivo `.zip`. Certifique-se de que o arquivo `fictitious_client_data_no_address.csv` está na pasta de dados (`Data`) para o treinamento do modelo, se necessário.
 
 # Instruções finais
 echo "A API está rodando em http://localhost:5000"
